@@ -1,0 +1,28 @@
+{
+	"name": "skeeks/yii2-widget-highcharts",
+	"description": "Highcharts widget for Yii 2 Framework.",
+	"keywords": ["yii2", "extension", "widget", "highcharts", "highstock", "highmaps"],
+	"type": "yii2-extension",
+    "homepage": "http://www.skeeks.com/",
+    "license": "BSD 3-Clause",
+    "support": {
+        "issues": "http://www.skeeks.com/",
+        "wiki": "http://git.skeeks.com/skeeks/yii2-widget-highcharts/blob/master/README.md",
+        "source": "http://git.skeeks.com/skeeks/yii2-widget-highcharts"
+    },
+    "authors": [
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"skeeks\\widget\\highcharts\\": ""
+		}
+	}
+}
